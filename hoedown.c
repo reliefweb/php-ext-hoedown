@@ -1922,12 +1922,12 @@ php_hoedown_parse(zval *return_value, zval *return_state,
             if (php_hoedown_user_block(options->user_block TSRMLS_CC)) {
 #endif
                 document = hoedown_document_new(renderer,
-                                                options->extension, 16, '',
+                                                options->extension, 16, 0,
                                                 php_hoedown_callback_user_block,
                                                 NULL);
             } else {
                 document = hoedown_document_new(renderer,
-                                                options->extension, 16, '',
+                                                options->extension, 16, 0,
                                                 NULL, NULL);
             }
 
@@ -2028,11 +2028,11 @@ php_hoedown_parse(zval *return_value, zval *return_state,
     if (php_hoedown_user_block(options->user_block TSRMLS_CC)) {
 #endif
         document = hoedown_document_new(renderer,
-                                        options->extension, 16, '',
+                                        options->extension, 16, 0,
                                         php_hoedown_callback_user_block, meta);
     } else {
         document = hoedown_document_new(renderer,
-                                        options->extension, 16, '',
+                                        options->extension, 16, 0,
                                         NULL, meta);
     }
 
