@@ -992,6 +992,7 @@ php_hoedown_renderer_listitem(hoedown_buffer *ob,
 static void
 php_hoedown_renderer_paragraph(hoedown_buffer *ob,
                                const hoedown_buffer *text,
+                               const hoedown_buffer *attr,
                                const hoedown_renderer_data *data)
 {
     TSRMLS_FETCH();
