@@ -60,8 +60,7 @@ Content Cell  | Content Cel</p>
 <h2>fenced code</h2>
 
 <p><code>php
-echo &quot;hello world&quot;;
-</code></p>
+echo &quot;hello world&quot;;</code></p>
 
 <h3>autolink</h3>
 

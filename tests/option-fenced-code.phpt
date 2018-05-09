@@ -39,5 +39,4 @@ bool(true)
 == disable ==
 bool(false)
 <p><code>php
-echo &quot;hello world&quot;;
-</code></p>
+echo &quot;hello world&quot;;</code></p>
